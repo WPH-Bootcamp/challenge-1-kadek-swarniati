@@ -1,1 +1,19 @@
-/* code here */
+/* Reset default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* General typography */
+body {
+  font-family: Inter, Arial, sans-serif;
+  line-height: 1.7;
+}
+
+section {
+  padding: 70px;
+}
+
+.hero-image img {
+  with: 100%;
+}
