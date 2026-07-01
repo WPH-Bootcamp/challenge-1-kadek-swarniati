@@ -17,3 +17,18 @@ section {
 .hero-image img {
   with: 100%;
 }
+
+nay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 70px;
+}
+nay ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+nay a {
+  text-decoration: none;
+}
