@@ -14,13 +14,6 @@ section {
   padding: 70px;
 }
 
-.hero-image img {
-  width: 100%;
-  max-width: 600px;
-  height: 250px;
-  object-fit: cover;
-}
-
 nav ul {
   display: flex;
   list-style: none;
@@ -40,8 +33,17 @@ nav a {
   flex: 1;
 }
 .hero-image {
-  flex: 1;
+  width: 100%;
+  margin-top: 60px;
 }
+.hero-image img {
+  width: 100%;
+  max-width: 1400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
 .hero h1 {
   font-size: 72px;
   font-weight: 700;
@@ -115,4 +117,11 @@ nav h1 {
   font-weight: 700;
   text-align: center;
   color: #0f172a;
+}
+.datasets h2,
+.features h2,
+.insights h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
 }
