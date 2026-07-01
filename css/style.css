@@ -53,3 +53,11 @@ nay a {
 .hero p {
   margin-bottom: 30px;
 }
+
+.hero a {
+  background: #0f172a;
+  color: white;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
