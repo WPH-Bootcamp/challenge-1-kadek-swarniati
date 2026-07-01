@@ -61,3 +61,13 @@ nay a {
   padding: 15px 30px;
   border-radius: 10px;
 }
+
+.cards {
+  display: flex;
+  gap: 30px;
+}
+.cards {
+  background: #dbeafe;
+  padding: 30px;
+  border-radius: 15px;
+}
