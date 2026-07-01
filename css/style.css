@@ -15,24 +15,24 @@ section {
 }
 
 .hero-image img {
-  with: 100%;
+  width: 100%;
   max-width: 600px;
   height: 250px;
   object-fit: cover;
 }
 
-nay {
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 25px 70px;
 }
-nay ul {
+nav ul {
   display: flex;
   list-style: none;
   gap: 30px;
 }
-nay a {
+nav a {
   text-decoration: none;
 }
 
@@ -47,7 +47,7 @@ nay a {
   flex: 1;
 }
 .hero h1 {
-  front-size: 50px;
+  font-size: 50px;
   margin-bottom: 20px;
 }
 .hero p {
@@ -66,7 +66,7 @@ nay a {
   display: flex;
   gap: 30px;
 }
-.cards {
+.card {
   background: #dbeafe;
   padding: 30px;
   border-radius: 15px;
