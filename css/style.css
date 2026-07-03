@@ -7,7 +7,8 @@
 /* General typography */
 body {
   font-family: 'Inter', Arial, sans-serif;
-  line-height: 1.7;
+  font-size: 16px;
+  line-height: 1.6;
   background: #f8fafc;
   color: #0f172a;
 }
@@ -37,26 +38,26 @@ section {
   border-radius: 20px;
 }
 
-.hero h1 {
-  font-size: 72px;
+.hero h2 {
+  font-size: 30px;
   font-weight: 700;
   line-height: 1.1;
   margin-bottom: 25px;
   max-width: 900px;
 }
-.hero h2 {
-  font-size: 30px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
+
 .hero p {
   font-size: 18px;
+  line-height: 1.7;
   color: #64748b;
-  margin-bottom: 40px;
+  margin-bottom: 35px;
+  max-width: 700px;
 }
 
 .hero a {
   display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
   background: #0f172a;
   color: white;
   text-decoration: none;
@@ -80,6 +81,15 @@ section {
   flex: 1;
   min-width: 250px;
 }
+.card h4 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 20px 0 10px;
+}
+.card p {
+  font-size: 16px;
+  color: #475569;
+}
 .card:hover {
   transform: translateY(-10px);
 }
@@ -89,6 +99,9 @@ footer {
   padding: 30px;
   background: #0f172a;
   color: white;
+}
+footer p {
+  font-size: 15px;
 }
 
 header {
@@ -110,6 +123,7 @@ nav ul {
 }
 nav a {
   text-decoration: none;
+  font-size: 25px;
   color: #334155;
   font-weight: 500;
 }
@@ -120,20 +134,21 @@ nav h1 {
   text-align: center;
   color: #0f172a;
 }
-.datasets h2,
-.features h2,
-.insights h2 {
+.datasets h3,
+.features h3,
+.insights h3 {
   text-align: center;
-  font-size: 40px;
-  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 40px;
 }
 .features ul {
   list-style: none;
   text-align: center;
 }
 .features li {
-  margin-bottom: 20px;
-  font-size: 20px;
+  margin-bottom: 16px;
+  font-size: 18px;
 }
 section {
   padding: 70px 20px;
