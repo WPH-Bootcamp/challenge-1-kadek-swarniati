@@ -6,7 +6,7 @@
 }
 /* General typography */
 body {
-  font-family: Inter, Arial, sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
   line-height: 1.7;
   background: #f8fafc;
   color: #0f172a;
@@ -14,15 +14,6 @@ body {
 
 section {
   padding: 70px;
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-  gap: 30px;
-}
-nav a {
-  text-decoration: none;
 }
 
 .hero {
@@ -59,7 +50,7 @@ nav a {
   margin-bottom: 20px;
 }
 .hero p {
-  font-size: 28px;
+  font-size: 18px;
   color: #64748b;
   margin-bottom: 40px;
 }
