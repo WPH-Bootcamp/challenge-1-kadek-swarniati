@@ -68,6 +68,8 @@ section {
 .cards {
   display: flex;
   gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .card {
   background: #dbeafe;
@@ -75,6 +77,8 @@ section {
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
   transition: 0.3s;
+  flex: 1;
+  min-width: 250px;
 }
 .card:hover {
   transform: translateY(-10px);
@@ -130,4 +134,9 @@ nav h1 {
 .features li {
   margin-bottom: 20px;
   font-size: 20px;
+}
+section {
+  padding: 70px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
